@@ -17,8 +17,8 @@ export default class EnemyController{
     currenDirection = MovingDirection.right; // vị trí ban đầu
     xVelocity = 0;
     yVelocity = 0;
-    defaultXVelocity = 3;
-    defaultYVelocity = 3;
+    defaultXVelocity = 2;
+    defaultYVelocity = 2;
     moveDownTimerDefault = 30; // thời gian di chuyển xuống mặc định
     moveDownTimer = this.moveDownTimerDefault
     fireBulletTimerDefault = 20
